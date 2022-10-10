@@ -4,7 +4,7 @@ import jphSlice from "../../jphSlice/jphSlice";
 export const createStore = () =>
   configureStore({
     reducer: {
-      jphGetUsers: jphSlice,
+      jphSlice,
     },
   });
 
